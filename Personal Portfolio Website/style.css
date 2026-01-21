@@ -23,3 +23,82 @@ header {
   color: #ffffff;
   font-weight: 700;
 }
+
+nav ul {
+  display: flex;
+  grid-column: 2;
+  justify-content: center;
+  gap: 24px;
+  font-size: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+#greeting {
+  padding-top: 50px;
+  font-size: 50px;
+  margin: 0px;
+}
+
+#quote {
+  font-size: 17px;
+  color: #475569;
+}
+
+#hero_adjustment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #cffafe, #ffffff);
+  gap: 48px;
+}
+
+#hero_content {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: calc(infinity * 1px);
+  height: 700px;
+  width: 450px;
+}
+
+#social_links {
+  display: flex;
+  gap: 24px;
+}
+
+#facebook_link,
+#linkedin_link,
+#gmail_link,
+#github_link {
+  cursor: pointer;
+  border-radius: calc(infinity * 1px);
+}
+
+#active {
+  color: #ff0000;
+}
+
+.hover_nav:hover {
+  color: #cccccc;
+}
+
+#footer {
+  font-weight: 700;
+}
