@@ -17,7 +17,7 @@
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a class="hover_nav" href="index.html">Home</a></li>
           <li><a id="active" class="hover_nav" href="about.html">About</a></li>
           <li><a class="hover_nav" href="laboratory.html">Laboratory</a></li>
         </ul>
@@ -25,10 +25,15 @@
     </header>
     <main>
       <div id="about_adjustment">
-        <h1 id="about">About Me</h1>
+        <h1 id="about" class="animate__animated animate__slideInDown">
+          About Me
+        </h1>
         <div id="about_content">
-          <h1 id="linear_y_axis"></h1>
-          <div>
+          <h1
+            id="linear_y_axis"
+            class="animate__animated animate__slideInUp"
+          ></h1>
+          <div class="animate__animated animate__slideInRight">
             <p class="text_about">
               Hi, I’m <b>Jomer</b>, an undergraduate student passionate about
               <b>software</b> and <b>web development</b>. <br />
@@ -62,5 +67,10 @@
         </div>
       </div>
     </main>
+    <footer>
+      <div id="footer">
+        <p>&copy; 2025 Jomer Ubaldo. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
