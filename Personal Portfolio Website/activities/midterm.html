@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html style="scroll-behavior:smooth;">
+<head>
+ <title>Midterm Project</title>
+</head>
+
+<body style="margin:0px;">
+
+<!----------HEADER---------->
+  <header style="position:fixed; top:0; width:100%; height:45px; background:#fffffe; display:flex; justify-content:space-around; align-items:center;">
+   <div style="width:1470px; display:flex; justify-content:space-between; align-items:center;">
+
+<!----------TITLE PAGE---------->
+   <div style="display:flex; align-items:center; justify-content:flex-start; padding-left:6px; margin-left:0;">
+     <img src="logo-removebg-preview.png" width="70px;" height="60px;" alt="logo"/>
+    <h3 style="color:#0f0e17;" class="logo">Tourist Destinations</h3>
+    </div>
+
+<!----------NAVBAR---------->
+ <nav style="display:flex; gap:20px;">
+
+  <a href="#home" style="text-decoration:none; font-size:17px; padding-top:3px; padding-right:15px; font-family:Arial,sans-serif; color:#0f0e17;">Home</a>
+
+  <select onchange="location.href=this.value; event.target.selectedIndex=0;" style="font-size:17px; border:none; background-color:transparent; appearance:none; text-align:center; width:100px; cursor:pointer;">
+    <option disabled selected hidden>Asia▾</option>
+    <option value="#philippines">Philippines</option>
+    <option value="#japan">Japan</option>
+    <option value="#china">China</option>
+  </select>
+
+  <select onchange="location.href=this.value; event.target.selectedIndex=0;" style="font-size:17px; border:none; background-color:transparent; appearance:none; text-align:center; width:100px; cursor:pointer;">
+    <option disabled selected hidden>Europe▾</option>
+    <option value="#france">France</option>
+    <option value="#spain">Spain</option>
+    <option value="#italy">Italy</option>
+  </select>	
+
+  <select onchange="location.href=this.value; event.target.selectedIndex=0;" style="font-size:17px; border:none; background-color:transparent; appearance:none; text-align:center; width:100px; cursor:pointer;">
+    <option disabled selected hidden>America▾</option>
+    <option value="#unitedstates" style="text-align:center;">United States</option>
+    <option value="#canada">Canada</option>
+    <option value="#mexico">Mexico</option>
+  </select>
+  </nav>
+   </div>
+  </header>
+
+<!----------HERO OR HOME SECTION---------->
+<section id="home" style="display:flex; align-items:center; justify-content:space-between; height:770px; padding:0 45px; background:#14274E; font-family:'Poppins', sans-serif;">
+
+    <div style="max-width:50%; padding-bottom: 45px;">
+      <h1 style="font-size:70px; margin-bottom: 20px; color:#f5f5f5;">
+        Discover the World
+      </h1>
+      <p style="font-size:20px; line-height:1.6; color:#f5f5f5;"> Explore the world’s most amazing destinations — from Asia’s ancient wonders, Europe’s historic charm, to America’s iconic cities and breathtaking landscapes.</p>
+      <a href="#contact" style="display:inline-block; margin-top:20px; background:#FFD700; color:#0f0e17; text-decoration:none; padding:12px 24px; border-radius:6px; font-weight:bold;">
+        Contact Me
+      </a>
+    </div>
+      <img src="logo.jpg" alt="globe" style="width:620px; height:620px; border-radius:50%; box-shadow:0 0 25px rgba(255,255,255,0.6),0 0 60px rgba(255,255,255,0.3),0 0 100px rgba(255,255,255,0.2);">
+
+  </section>	
+
+
+<!----------ASIA MAIN PAGE---------->
+<main>
+
+<!----------PHILIPPINES SECTION 1---------->
+ <section id="philippines" style="background:#e0e0e0; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#333333;">Philippines</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="siargao.jpg">
+        <img src="siargao.jpg" alt="Siargao Island" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.siargaoislands.com/" target="_blank" style="color:#006994; text-decoration: none;">Siargao Island</a></h2>
+      <p style="text-align:justify; word-wrap:break-word; line-height:1.6; min-height:150px; color:#333333;"><strong>Siargao Island</strong>, often called the <em>“Surfing Capital of the Philippines”</em>, is a tropical paradise known for its <em>crystal-clear waters</em>, <em>pristine beaches</em>, and <strong>world-class surf breaks</strong>. Beyond surfing, visitors can explore stunning <strong>lagoons</strong>, lush <strong>coconut palms</strong>, and hidden caves, or enjoy island-hopping adventures to nearby islets. With its laid-back vibe, natural beauty, and vibrant local culture, Siargao offers unforgettable getaway for adventure seekers and nature lovers alike.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="boracay.jpg">
+        <img src="boracay.jpg" alt="Boracay Island" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://aklan.gov.ph/guide-for-tourists/" target="_blank" style="color:#006994; text-decoration:none;">Boracay Island</a></h2>
+      <p style="text-align:justify; word-wrap:break-word; line-height:1.6; min-height:150px; color:#333333;"><strong>Boracay Island</strong> is a world-famous tropical paradise known for its <em>powdery white sand beaches</em> and <em>crystal-clear turquoise waters</em>. Visitors can enjoy a wide range of activities, from water sports like <strong>kiteboarding</strong> and <strong>snorkeling</strong> to relaxing seaside strolls and vibrant nightlife. Its stunning <em>sunsets</em>, luxurious <strong>resorts</strong>, and lively atmosphere make Boracay a top destination for travelers seeking both <em>adventure</em> and <em>relaxation</em> in the Philippines.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">
+      <a href="banaue.jpg">
+        <img src="banaue.jpg" alt="Banaue Rice Terraces" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.banaueterraces.com/" target="_blank" style="color:#006994; text-decoration:none;">Banaue Rice Terraces</a></h2>
+      <p style="text-align:justify; word-wrap:break-word; line-height:1.6; min-height:150px; color:#333333;">The <strong>Banaue Rice Terraces</strong>, often called the <em>“Eighth Wonder of the World”</em>, are an extraordinary example of ancient engineering and cultural heritage. Carved into the mountains of <strong>Ifugao</strong> over 2,000 years ago, these terraces showcase the ingenuity and harmony of the indigenous people with nature. Visitors can hike through the lush terraces, learn about traditional <em>farming practices</em>, and experience the breathtaking views of this <strong>UNESCO World Heritage Site</strong>.</p>
+    </article>
+  </div>
+</section>
+
+<!----------JAPAN SECTION 2---------->
+<section id="japan" style="background:#0f0e17; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#e0e0e0;">Japan</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="tokyo.jpg">
+        <img src="tokyo.jpg" alt="Tokyo" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://tokyotokyo.jp/home/" target="_blank" style="color:#FFD700; text-decoration: none;">Tokyo</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Tokyo</strong>, Japan’s bustling capital, is a vibrant city where <em>tradition meets modernity</em>. From historic <strong>temples</strong> and serene <strong>gardens</strong> to towering <strong>skyscrapers</strong> and neon-lit streets, Tokyo offers an unforgettable blend of <em>culture</em>, <em>technology</em>, and <em>entertainment</em>. Visitors can explore iconic neighborhoods like <strong>Shibuya</strong> and <strong>Asakusa</strong>, savor world-class cuisine, and experience unique attractions such as the <strong>Tsukiji Market</strong> and <strong>Tokyo Tower</strong>.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="kyoto.jpg">
+        <img src="kyoto.jpg" alt="Kyoto Temple" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://kyoto.travel/en/" target="_blank" style="color:#FFD700; text-decoration: none;">Kyoto Temple</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Kyoto</strong>, the cultural heart of Japan, is home to hundreds of historic <strong>temples</strong> and <strong>shrines</strong> that showcase the country’s rich heritage. Visitors can admire iconic sites such as <strong>Kinkaku-ji (Golden Pavilion)</strong>, <strong>Fushimi Inari Taisha</strong>, and <strong>Kiyomizu-dera</strong>, each surrounded by serene gardens and scenic landscapes. With its blend of traditional architecture, <em>spiritual ambiance</em>, and <em>seasonal beauty</em>, Kyoto offers travelers a peaceful and unforgettable journey into Japan’s timeless culture.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">
+      <a href="mountfuji.jpg">
+        <img src="mountfuji.jpg" alt="Mount Fuji" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.fujisan-climb.jp/en/" target="_blank" style="color:#FFD700; text-decoration: none;">Mount Fuji</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Mount Fuji</strong>, Japan’s tallest peak and an iconic symbol of the country, is renowned for its majestic, snow-capped summit and breathtaking <em>natural beauty</em>. A popular destination for <em>hikers</em>, <em>photographers</em>, and <em>spiritual seekers</em>, it offers panoramic views of surrounding lakes, forests, and cities. Whether admired from afar or climbed during the hiking season, Mount Fuji embodies Japan’s harmony of <em>nature</em>, <em>culture</em>, and <em>inspiration</em>, making it a <strong>must-visit landmark</strong> for travelers.</p>
+    </article>
+  </div>
+</section>
+
+<!----------CHINA SECTION 3---------->
+<section id="china" style="background:#e0e0e0; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#333333;">China</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="greatwallchina.jpg">
+        <img src="greatwallchina.jpg" alt="Great Wall Of China" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://great-wall-china.org/en/" target="_blank" style="color:#006994; text-decoration: none;">Great Wall of China</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>The Great Wall of China</strong> is one of the most iconic and enduring symbols of human achievement. Stretching over <strong>13,000 miles</strong>, this ancient fortification was built to protect Chinese kingdoms from invasions and now stands as a <em>UNESCO World Heritage Site</em>. Visitors can walk along its historic ramparts, admire breathtaking views of mountains and valleys, and marvel at the engineering brilliance of this monumental structure.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="forbiddencity.jpg">
+        <img src="forbiddencity.jpg" alt="Forbidden City" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://intl.dpm.org.cn/index.html?l=en" target="_blank" style="color:#006994; text-decoration: none;">Forbidden City</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>The Forbidden City</strong>, located in the heart of <strong>Beijing</strong>, is a magnificent palace complex and a symbol of <em>China’s imperial history</em>. Serving as the home of emperors for nearly 500 years, it features grand halls, intricate <strong>architecture</strong>, and exquisite <strong>artworks</strong>. Visitors can explore its sprawling courtyards, ornate gates, and historic treasures, gaining insight into the rich <em>culture</em> and <em>traditions</em> of ancient China. <strong>The Forbidden City</strong> is a <em>must-visit landmark</em> showcasing <strong>China’s imperial heritage</strong>.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">
+      <a href="terracottaarmy.jpg">
+        <img src="terracottaarmy.jpg" alt="Terracotta Army" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://terracottawarriorsmuseum.com/" target="_blank" style="color:#006994; text-decoration: none;">Terracotta Army</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>The Terracotta Army</strong> is one of the most remarkable <em>archaeological discoveries</em> in the world, showcasing the grandeur of <strong>ancient China</strong>. Built to guard the tomb of <strong>Emperor Qin Shi Huang</strong>, it features thousands of life-sized <strong>clay soldiers</strong>, horses, and chariots, each uniquely crafted with intricate details. Visitors can explore the vast excavation pits and learn about the history, artistry, and military significance of this <em>UNESCO World Heritage Site</em>.</p>
+    </article>
+  </div>
+ </section>
+</main>
+
+
+<!----------EUROPE MAIN PAGE---------->
+<main>
+
+<!----------FRANCE SECTION 1---------->
+<section id="france" style="background:#0f0e17; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#e0e0e0;">France</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="eiffeltower.jpg">
+        <img src="eiffeltower.jpg" alt="Eiffel Tower" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.toureiffel.paris/en" target="_blank" style="color:#FFD700; text-decoration: none;">Eiffel Tower</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;">The <strong>Eiffel Tower</strong> is one of the world’s most iconic landmarks, standing proudly in the heart of Paris. Built in <time datetime="1889">1889</time>, this iron masterpiece offers breathtaking panoramic views of the city from its viewing decks. Whether admired from the ground or while enjoying a meal in its elegant restaurants, the Eiffel Tower captures the <em>romance</em>, <em>beauty</em>, and timeless charm of Paris — making it a <strong>must-visit destination</strong> for travelers from around the globe.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="disneyland.jpg">
+        <img src="disneyland.jpg" alt="Disneyland Paris" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.disneylandparis.com/en-usd" target="_blank" style="color:#FFD700; text-decoration: none;">Disneyland Paris</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Disneyland Paris</strong> is a magical world where dreams come to life. Located just outside the city of Paris, it combines the charm of <em>European style</em> with the excitement of <strong>classic Disney adventures</strong>. Visitors can explore two enchanting parks filled with thrilling rides, dazzling shows, and beloved Disney characters. Whether you’re a child or simply young at heart, Disneyland Paris offers unforgettable <em>fun</em>, <em>wonder</em>, and <strong>adventure</strong> for everyone.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">
+      <a href="louvremuseum.jpg">
+        <img src="louvremuseum.jpg" alt="Louvre Museum" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.ticketslouvre.com/en" target="_blank" style="color:#FFD700; text-decoration: none;">Louvre Museum</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;">The <strong>Louvre Museum</strong> is the world’s largest and most visited art museum, showcasing masterpieces that spancenturies of <em>human creativity</em>. Once a royal palace, it now houses over <strong>35,000 artworks</strong>, including the famous <em>Mona Lisa</em> and <em>Venus de Milo</em>. Its stunning <strong>glass pyramid entrance</strong> and grand galleries make the Louvre not only a treasure of art and history but also an <em>architectural marvel</em> at the heart of Paris.</p>
+    </article>
+
+  </div>
+</section>
+
+<!----------SPAIN SECTION 2---------->
+<section id="spain" style="background:#e0e0e0; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#333333;">Spain</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="lasagradafamilia.jpg">
+        <img src="lasagradafamilia.jpg" alt="La Sagrada Familia" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.sagradafamilia-tickets.org/" target="_blank" style="color:#006994; text-decoration: none;">La Sagrada Familia</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>La Sagrada Família</strong> is an awe-inspiring basilica and one of the most famous landmarks in Spain. Designed by the legendary architect <em>Antoni&nbsp;Gaudí</em>, this masterpiece blends <strong>Gothic</strong> and <strong>modernist</strong> styles in a breathtaking display of creativity. Its intricate facades, towering spires, and colorful <em>stained-glass windows</em> attract millions of visitors each year. Still under construction after more than a century, La&nbsp;Sagrada&nbsp;Família stands as a symbol of <em>faith</em>, <em>art</em>, and <strong>architectural genius</strong>.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="royalpalaceofmadrid.jpg">
+        <img src="royalpalaceofmadrid.jpg" alt="Royal Palace of Madrid" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://palaciorealmadrid-entradas.org/" target="_blank" style="color:#006994; text-decoration: none;">Royal Palace of Madrid</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;">The <strong>Royal Palace of Madrid</strong> is the largest royal residence in Western Europe and a stunning symbol of Spain’s <em>rich history</em>. Built in the <time datetime="1700">18th century</time>, it features magnificent
+  <strong>architecture</strong>, grand halls, and exquisite artworks by masters like <em>Goya</em> and <em>Velázquez</em>. Though it is the official residence of the Spanish royal family, the palace is mainly used for <strong>state ceremonies</strong> and open for visitors to explore its lavish rooms, royal armory, and beautiful gardens.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">	
+      <a href="seville.jpg">
+        <img src="seville.jpg" alt="Seville" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://sevillecityguide.com/" target="_blank" style="color:#006994; text-decoration: none;">Seville</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>Seville</strong>, the vibrant capital of southern Spain’s <em>Andalusia</em> region, is a city full of <em>color</em>, <em>culture</em>, and <em>charm</em>. Famous for its stunning <strong>architecture</strong>, <em>flamenco music</em>, and lively festivals, Seville captures the true spirit of Spain. Visitors can explore iconic landmarks such as the <strong>Seville Cathedral</strong>, the <strong>Giralda Tower</strong>, and the beautiful <strong>Alcázar Palace</strong>. With its warm atmosphere, historic streets, and delicious cuisine, Seville offers an unforgettable experience for every traveler.</p>
+    </article>
+  </div>
+ </section>
+
+<!----------ITALY SECTION 3---------->
+<section id="italy" style="background:#0f0e17; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#e0e0e0;">Italy</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="thecolosseum .jpg">
+        <img src="thecolosseum .jpg" alt="The Colosseum" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://colosseum.rome-tickets.org/" target="_blank" style="color:#FFD700; text-decoration: none;">The Colosseum</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;">The <strong>Colosseum</strong> is one of the most iconic symbols of ancient Rome and a masterpiece of <strong>Roman engineering</strong>. Built in 80&nbsp;AD, this massive amphitheater once hosted <em>gladiator battles</em>, public spectacles, and grand celebrations. Today, it stands as a powerful reminder of the <strong>Roman Empire’s</strong> glory and architectural brilliance. Visitors can walk through its ancient corridors, imagine the roar of the crowds, and admire one of the greatest <em>monuments in human history</em>.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="florence.jpg">
+        <img src="florence.jpg" alt="Florence" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.ciaoflorence.it/en" target="_blank" style="color:#FFD700; text-decoration: none;">Florence</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Florence</strong>, the cradle of the <em>Renaissance</em>, is a city filled with art, history, and timeless beauty. Located in the heart of <strong>Tuscany</strong>, it’s home to world-renowned masterpieces by <em>Michelangelo</em>, <em>Leonardo da Vinci</em>, and <em>Botticelli</em>. Visitors can stroll through the charming streets, admire the majestic <strong>Florence Cathedral</strong>, and cross the historic <strong>Ponte Vecchio</strong> bridge. With its museums, architecture, and romantic atmosphere, Florence offers an unforgettable glimpse into Italy’s <strong>artistic soul</strong>.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">
+      <a href="venice.jpg">
+        <img src="venice.jpg" alt="Venice" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.visitvenezia.eu/en" target="_blank" style="color:#FFD700; text-decoration: none;">Venice</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Venice</strong>, known as the <em>“City of Canals”</em>, is one of the most enchanting places in the world. Built on over <strong>100 small islands</strong>, it has no roads — only winding waterways and picturesque bridges. Visitors can glide through the canals on a romantic <em>gondola ride</em>, admire the stunning <strong>St. Mark’s Basilica</strong>, and explore the lively <strong>Piazza San Marco</strong>. With its unique charm, historic architecture, and timeless beauty, Venice offers a truly <em>magical experience</em>.</p>
+    </article>
+
+  </div>
+</section>
+
+</main>
+
+
+<!----------AMERICA MAIN PAGE---------->
+<main>
+
+<!----------UNITED STATES SECTION 1---------->
+<section id="unitedstates" style="background:#e0e0e0; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#333333;">United States</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="statueofliberty.jpg">
+        <img src="statueofliberty.jpg" alt="Statue Of Liberty" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.statueofliberty.org/" target="_blank" style="color:#006994; text-decoration: none;">Statue of Liberty</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;">The <strong>Statue of Liberty</strong> stands proudly on <strong>Liberty Island</strong> as a universal symbol of <em>freedom</em> and <em>hope</em>. A gift from <em>France</em> to the United States in <time datetime="1886">1886</time>, this majestic monument welcomes millions of visitors each year to <strong>New York Harbor</strong>. Towering at <strong>305 feet</strong>, Lady Liberty represents <em>democracy</em> and the enduring spirit of the American people. Visitors can explore its museum, climb to the crown, and enjoy breathtaking views of the <strong>New York City skyline</strong>.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="timessquare.jpg">
+        <img src="timessquare.jpg" alt="Times Square" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.timessquarenyc.org/" target="_blank" style="color:#006994; text-decoration: none;">Times Square</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>Times Square</strong>, often called <em>“The Crossroads of the World”</em>, is a bustling hub of lights, entertainment, and excitement in the heart of <strong>New York City</strong>. Famous for its massive digital billboards, <strong>Broadway theaters</strong>, and lively atmosphere, it attracts millions of visitors every year. Whether experiencing the vibrant nightlife, shopping at flagship stores, or celebrating the iconic <em>New Year’s Eve ball drop</em>, Times Square offers an unforgettable <em>urban adventure</em>.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">
+      <a href="sanfrancisco.jpg">
+        <img src="sanfrancisco.jpg" alt="San Francisco" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.sfgov.org/visitors" target="_blank" style="color:#006994; text-decoration: none;">San Francisco</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>San Francisco</strong> is a vibrant city known for its iconic landmarks, rolling hills, and picturesque waterfront. Famous for the <strong>Golden Gate Bridge</strong>, historic <em>cable cars</em>, and the lively <strong>Fisherman’s Wharf</strong>, the city offers a unique blend of culture, history, and scenic beauty. Visitors can explore charming neighborhoods like <strong>Chinatown</strong> and <strong>Haight-Ashbury</strong>, enjoy stunning bay views, and experience the city’s <em>artistic</em> and <em>culinary delights</em>. San Francisco is truly a destination full of <strong>charm</strong>.</p>
+    </article>
+  </div>
+ </section>
+
+
+<!----------CANADA SECTION 2---------->
+<section id="canada" style="background:#0f0e17; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#e0e0e0;">Canada</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="niagarafalls.jpg">
+        <img src="niagarafalls.jpg" alt="Niagara Falls" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.niagarafallsusa.com/" target="_blank" style="color:#FFD700; text-decoration: none;">Niagara Falls</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Niagara Falls</strong> is one of the most spectacular <em>natural wonders</em> in the world, famous for its powerful waterfalls and breathtaking scenery. Straddling the border between <strong>Canada</strong> and the <strong>United States</strong>, it attracts millions of visitors each year who come to witness the thundering waters, take boat tours, and enjoy the surrounding parks and observation points. With its combination of <em>natural beauty</em> and exciting attractions, Niagara Falls offers unforgettable experience for travelers of all ages.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="ripleysaquarium.jpg">
+        <img src="ripleysaquarium.jpg" alt="Ripleys Aquarium of Canada" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.ripleys.com/attractions/ripleys-aquarium-of-canada" target="_blank" style="color:#FFD700; text-decoration: none;">Ripley's Aquarium of Canada</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Ripley’s Aquarium of Canada</strong> is a captivating marine attraction located in the heart of <strong>Toronto</strong>. Home to thousands of aquatic species, it offers visitors a fascinating journey through <em>underwater tunnels</em>, interactive exhibits, and vibrant habitats. From colorful <em>tropical fish</em> to majestic <strong>sharks</strong>, the aquarium provides an immersive and educational experience for all ages. It’s a <strong>must-visit destination</strong> for families, nature enthusiasts, and anyone curious about the wonders of ocean.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">
+      <a href="whistler.jpg">
+        <img src="whistler.jpg" alt="Whistler" width="450" height="300" style="border:2px solid white;"/>
+      </a>
+      <h2><a href="https://www.skican.com/" target="_blank" style="color:#FFD700; text-decoration: none;">Whistler</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#e0e0e0;"><strong>Whistler</strong> is a world-renowned resort town nestled in the stunning <strong>Coast Mountains</strong> of <strong>British Columbia</strong>. Famous for its exceptional <em>ski slopes</em>, <em>snowboarding parks</em>, and year-round <strong>outdoor activities</strong>, it attracts adventure seekers and nature lovers alike. Beyond winter sports, visitors can explore scenic <em>hiking trails</em>, mountain biking routes, and the charming pedestrian village. Whistler’s stunning landscapes and lively activities make it a must-visit Canadian destination year-round.</p>
+    </article>
+
+  </div>
+</section>
+
+<!----------MEXICO SECTION 2---------->
+<section id="mexico" style="background:#e0e0e0; width:100vw; height:800px; display:flex; flex-direction:column; justify-content:center; align-items:center; font-family:'Poppins', sans-serif;">
+
+  <h1 style="color:#333333;">Mexico</h1>
+
+  <div style="display:flex; justify-content:center; align-items:flex-start; gap:40px; padding:20px;">
+
+<!----------ARTICLE 1---------->
+    <article style="width:450px;">
+      <a href="chichenItza.jpg">
+        <img src="chichenItza.jpg" alt="Chichen Itza" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.chichenitza.com/" target="_blank" style="color:#006994; text-decoration: none;">Chichén Itzá</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>Chichén Itzá</strong> is one of <strong>Mexico</strong>’s most iconic archaeological sites and a <em>UNESCO World Heritage Site</em>. Once a major city of the ancient <strong>Maya civilization</strong>, it features remarkable structures such as the <strong>Pyramid of Kukulcán</strong>, the <strong>Temple of the Warriors</strong>, and the <strong>Great Ball Court</strong>. Visitors can explore its well-preserved ruins, learn about <em>Mayan history</em> and culture, and marvel at the architectural genius of this ancient civilization, fascinating journey into <em>Mexico’s rich past</em>.</p>
+    </article>
+
+<!----------ARTICLE 2---------->
+    <article style="width:450px;">
+      <a href="cancun.jpg">
+        <img src="cancun.jpg" alt="Cancun" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.cancun.gob.mx/home" target="_blank" style="color:#006994; text-decoration: none;">Cancún</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>Cancún</strong> is a world-famous beach destination located on <strong>Mexico</strong>’s <strong>Yucatán Peninsula</strong>, known for its <em>turquoise waters</em>, <em>white sandy beaches</em>, and vibrant nightlife. Visitors can relax at luxurious resorts, explore nearby <strong>coral reefs</strong>, or take day trips to ancient <strong>Mayan ruins</strong> and natural parks. With its warm climate, exciting activities, and stunning coastal scenery, Cancún offers the perfect blend of <em>relaxation</em>, <em>adventure</em>, and unforgettable experiences.</p>
+    </article>
+
+<!----------ARTICLE 3---------->
+    <article style="width:450px;">	
+      <a href="museosoumaya.jpg">
+        <img src="museosoumaya.jpg" alt="Museo Soumaya" width="450" height="300" style="border:2px solid black;"/>
+      </a>
+      <h2><a href="https://www.museo-soumaya.org/" target="_blank" style="color:#006994; text-decoration: none;">Museo Soumaya</a></h2>
+      <p style="text-align:justify; line-height:1.6; min-height:150px; color:#333333;"><strong>Museo Soumaya</strong> is a striking museum in <strong>Mexico City</strong>, renowned for its <em>modern architecture</em> and impressive <strong>art collection</strong>. Named after the wife of its founder, the museum houses over <strong>66,000 works</strong>, including European masters, Mexican artists, and historical artifacts. Its unique, futuristic design and diverse exhibits make it a <em>cultural landmark</em>, offering visitors an inspiring and educational experience in the heart of Mexico’s capital.</p>
+    </article>
+  </div>
+ </section>
+
+</main>
+
+
+<!----------Footer Page---------->
+<a name="contact"></a>
+<footer id="footer" style="background:#0f0e17; width:100vw; height:20vh; position:relative;">
+
+ <div style="color:#ffffff; display:flex; gap:50px; justify-content:center; padding-top:30px; text-decoration:none; font-size:40px;">
+  <a href="https://www.facebook.com/" target="_blank">ⓕ</a>
+  <a href="https://www.tiktok.com/en/" target="_blank">ꚠ</a>
+  <a href="https://workspace.google.com/gmail/" target="_blank">✉︎</a>
+  <a href="https://www.whatsapp.com/?lang=en" target="_blank">✆</a>
+ </div>
+
+  <div style="background:#000000; width:100%; height:5vh; position:absolute; bottom:0; color:#ffffff;">
+    <p style="margin:0; text-align:center; padding-top:10px;">&copy; 2025 Created by Jomer Ubaldo. Images credited to original owners.</p>
+  </div>
+</footer>
+
+</body>
+</html>
